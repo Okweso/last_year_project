@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>web trials</title>
+	<script type="text/javascript">
+		
+		function print()
+		{
+			var conte=document.forms["myForm"]["uname"].value;
+			if (conte=="")
+			{
+				alert("it is greater");
+			}
+			else
+			{
+				alert("it is less");
+			}
+		}
+	</script>
+</head>
+<body>
+<form name="myForm" onsubmit="print()">
+<input type="text" name="uname">
+<button type="submit" value="submit" >btn</button>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>elections page</title>
+	<link REL=StyleSheet HREF=last_project.css>
+	<script type="text/javascript" src="my_project.js"></script>
+
+
+</head>
+<body id="body1">
+<div class="linksy">
+<button id="elections" onclick="FormDisplay()" href="login.html">Login</button>
+</div>
+<img src="teau logo.png">
+
+<h1 id="election1">Welcome to The East African University Elections Page</h1>
+<h2 id="election2">Your Vote Counts!</h2>
+
+<form name="form1" id="log_form" action="index.php" onsubmit="ConfirmDetails()" method="post">
+
+
+<label id="form2" for="admn_no"><b>Admission Number</b></label>
+<input id="form1" type="text" placeholder="Enter your admission number" name="admn_no">
+
+
+
+
+<label id="form2" for="psw"><b>Password</b></label>
+<input id="form1" type="Password" placeholder="Enter your password" name="psw">
+<div class="error">* <?php echo $passErr; ?></div>
+
+
+<button id="form1" type="submit" name="login" value="submit">Login</button>
+
+
+</form>
+
+
+</body>
+</html>
