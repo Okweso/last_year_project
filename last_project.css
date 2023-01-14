@@ -1,0 +1,395 @@
+
+body{
+height: 125vh;
+margin-top: 30px;
+padding:30px;
+background-size: cover;
+background-color: #99cfff;
+}
+header {
+background-color: orange;
+position: fixed;
+left: 850px;
+right: 0;
+top:15px;
+height:40px;
+display:flex;
+align-items: center;
+box-shadow: 0 0 20px 0 black;
+}
+header*{
+display:inline;
+}
+header li {
+margin: 7px;
+}
+header li a {
+color: blue;
+text-decoration:none;
+padding: 12px;
+}
+ul li{
+display: inline-block;
+}
+ul li a:hover{
+background-color: red;
+}
+#election1{
+	font-size: 50px;
+	text-align: center;
+	font color: #00ff00;
+
+}
+#election2{
+	font-size: 30px;
+	text-align: center;
+	font color: #00ff00;
+
+}
+#body1{
+	background-color: white;
+}
+img{
+	width: 30%;
+	height: 30%;
+	position: relative;
+	left: 35%;
+	top:20px;
+	padding: 10px;
+
+}
+.linksy{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+
+
+}
+#elections{
+	background-color: green;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 25px;
+	color: black;
+	text-decoration: none;
+	position: fixed;
+	font-weight: bold;
+
+}
+#elections:hover{
+	background-color: white;
+	border:none;
+}
+#elections:visited{
+	color: red;
+}
+#log_form{
+	display: flex;
+	flex-direction: column;
+	background-color: #9400D3;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+	height: 600px;
+	width: 800px;
+	position: absolute;
+	left: 200px;
+	top: 0px;
+	opacity: 0.9;
+}
+#form1{
+	font-size: 20px;
+	padding: 10px;
+	width: 500px;
+	margin: 15px;
+	font-weight: bold;
+
+
+}
+#form2{
+	font-size: 30px;
+	font-weight: bold;
+}
+button{
+	padding-bottom: 5px;
+	cursor: pointer;
+	background-color: green;
+	font-size: 30px;
+	border-radius: 5px;
+	text-align: center;
+}
+button:hover{
+	background-color: aquamarine;
+}
+.error{
+	color: red;
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: gainsboro;
+	height: 400px;
+	width: 900px;
+	align-items: center;
+	box-shadow: 10px 10px lightblue;
+	position: absolute;
+	left: 200px;
+	margin-bottom: 100px;
+}
+#lab{
+	font-size: 20px;
+	color: blue;
+}
+#inp{
+	font-size: 20px;
+	width: 400px;
+}
+
+#but{
+	height: 55px;
+	width: 100px;
+	margin-top: 0px;
+	position: relative;
+	left: 150px;
+
+}
+#register{
+	height: 800px;
+	width: 800px;
+	background-color: white;
+	position: relative;
+	left: 300px;
+	box-shadow: 10px 10px lightblue;
+}
+#form3{
+	position: relative;
+	left: 200px;
+	padding: 20px;
+}
+#heading1{
+	font-size: 80px;
+	color: green;
+	text-align: center;
+}
+.sidebar{
+	position: relative;
+	left: 0;
+	top: 0;
+	 margin: 0;
+ 	 padding: 0;
+	 width: 200px;
+	 background-color: grey;
+	 position: fixed;
+	 height: 100%;
+	 overflow: auto;
+}
+.sidebar a{
+	display: block;
+  	color: black;
+  	padding: 16px;
+  	text-decoration: none;
+}
+.sidebar a.active{
+	background-color: #04AA6D;
+  	color: white;
+}
+.sidebar a:hover:not(.active){
+	background-color: #555;
+  	color: white;
+}
+.content{
+	position: relative;
+	left: 200px;
+}
+#table_data{
+	border-collapse: collapse;
+	margin: 25px 0;
+	font-size: 1.5em;
+	font-family: sans-serif;
+	min-width: 1000px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.15);
+	position: relative;
+	left: 200px;
+	margin-bottom: 25px;
+}
+#table_data thead tr{
+	background-color: #009879;
+    color: #ffffff;
+    
+}
+#table_data thead tr td{
+	text-align: center;
+}
+#table_data th td{
+	padding: 12px 15px;
+	
+}
+#details_btn{
+	position: relative;
+	left:230px;
+	height: 50px;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 0px;
+}
+#election_data{
+	display: show;
+	background-color: AtiqueWhite;
+	box-shadow: 0 0 20px rgba(0,0,0,0.15);
+	height: 400px;
+	width: 300px;
+	position: relative;
+	left: 200px;
+	padding-top: 40px;
+	font-size: 1em;
+	margin-top: 10px;
+}
+#election_data label input{
+	font-size: 1em;
+	
+
+}
+#election_data input{
+	width: 250px;
+	height: 25px;
+	
+}
+#election_data button{
+	position: relative;
+	left: 90px;
+	background-color: pink;
+}
+#election_data button:hover{
+	background-color: gainsboro;
+}
+#candidate_reg{
+	width: 500px;
+	height: 650px;
+	background-color: AtiqueWhite;
+	position: relative;
+	left: 250px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.15);
+	padding: 20px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+#form_cont{
+	
+	padding-top: 20px;
+}
+#form_cont input {
+	width: 350px;
+	height: 25px;
+	font-size: 20px;
+}
+#form_cont label{
+	font-size: 25px;
+}
+#gen{
+	height: 25px;
+	width: 200px;
+}
+#presd{
+	background-color: antiquewhite;
+	width: 600px;
+	position: relative;
+	left: 100px;
+	margin-bottom: 15px;
+}
+#profile{
+	position: relative;
+	left: 50px;
+}
+.panel{
+	background-color: lime;
+	font-size: 40px;
+	position: relative;
+	left: 360px;
+	width: 890px;
+	margin-top: 70px;
+}
+.panel_body{
+	background-color: khaki;
+	width: 800px;
+	position: relative;
+	left: 400px;
+	border-radius: 10px;
+	font-size: 30px;
+
+}
+
+
+#confirm {
+	display: none;
+	background-color: #91FF00;
+	border: 1px solid #aaa;
+	position: fixed;
+	width: 250px;
+	left: 50%;
+	margin-left: -100px;
+	padding: 6px 8px 8px;
+	box-sizing: border-box;
+	text-align: center;
+}
+#confirm button {
+    background-color: #48E5DA;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 5px;
+    text-align: center;
+    width: 80px;
+    cursor: pointer;
+}
+#confirm .message {
+    text-align: left;
+}
+.voted{
+	color: red;
+	font-size: 45px;
+}
+#vt{
+	color: red;
+	font-size: 30px;
+}
+.analysis{
+	position: relative;
+	left: 0;
+	top: 0;
+	 margin: 0;
+ 	 padding: 0;
+	 width: 400px;
+	 background-color: grey;
+	 position: fixed;
+	 height: 100%;
+	 overflow: auto;
+}
+.content#lab{
+	background-color: yellow;
+	font-size: 30px;
+}
+#set_date{
+	width: 500px;
+	height: 450px;
+	background-color: AtiqueWhite;
+	position: relative;
+	left: 250px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.15);
+	padding: 20px;
+	text-align: center;
+	margin-bottom: 20px;
+
+}
+.display_time{
+	background-color: #FFC0CB;
+	position: fixed;
+	top: 0;
+	left: 180px;
+	width: 100%;
+
+}
+.display_time h2{
+	color: 00008B;
+}
